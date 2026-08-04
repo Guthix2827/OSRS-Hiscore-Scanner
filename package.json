@@ -1,0 +1,13 @@
+{
+  "name": "osrs-hiscore-scanner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Conservative OSRS hiscore visibility scanner with CSV output",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
