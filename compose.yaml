@@ -3,10 +3,10 @@ services:
     build: .
     container_name: osrs-hiscore-scanner
     environment:
-      CONCURRENCY: "4"
-      TIMEOUT_MS: "15000"
-      REQUEST_DELAY_MS: "250"
-      MAX_RETRIES: "3"
+      CONCURRENCY: "1"
+      REQUEST_DELAY_MS: "4000"
+      TIMEOUT_MS: "30000"
+      MAX_RETRIES: "5"
       NAME_LENGTH: "3"
       OUTPUT_DIR: "/app/output"
     volumes:
